@@ -1,42 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Opis zadania
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## Wstęp
 
-Make sure to install the dependencies:
+Aplikacja ma wyszukiwać liczby, które nie pasują do pozstałych
 
-```bash
-# yarn
-yarn install
+## Działanie
 
-# npm
-npm install
+Na poczatku sprawdza czy formularz zawiera 3 liczby, jeśli tak to, liczby są przesyłane do sprawdzenia, jeśli nie przycisk wysłania formularza jest nieaktywny. Po przesłaniu liczb, następuje stworzenie tablizy z każdego znaku odzielonego przecinkiem oraz zmiana wszystkich znaków na typ number. Następniesprawdza się funckją findOutlier, czy liczby są patrzyste i zwraca się te, które się wyróżniają. Ostatnim etapem jest sprawedzenie, czy instnieją liczby, które odbiegają od pozostałych.
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Technologię 
+Nuxt3, Typescript
