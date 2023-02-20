@@ -2,41 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-input{
-    border: 2px solid #E6E8EA;
-    border-radius: 8px;
-    padding: 3px 3px 3px 8px;
-    font-size: 15px;
-    transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+input {
+  border: 2px solid #e6e8ea;
+  border-radius: 8px;
+  width: 280px;
+  padding: 6px 20px 6px 12px;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+  border-width: 2px;
+}
+
+*:focus {
+  outline: none;
 }
 
 input:focus {
-    border-color: #618CFB;
-    border-width: 2px;
-    color: #212427 !important;
+  border: 2px solid #618cfb;
+  width: 280px;
 }
+
 input::placeholder {
-    font-size: 15px;
-    color: #a7a2a2
+  font-size: 15px;
+  color: #a7a2a2;
 }
 input:focus::placeholder {
-    font-size: 0px;
+  font-size: 0px;
 }
-.primary-button{
-        background-color: #618CFB;
-        position: absolute;
-        padding: 10px 23px;
-        color: white;
-        font-style: normal;
-        font-weight: 500;
-        top: 20;
-        font-size: 15px;
-        line-height: 22px;
-        letter-spacing: 0.05em;
-        display: block;
-        border-radius: 8px;
-        transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+.primary-button {
+  background-color: #618cfb;
+  margin-left: 28px;
+  padding: 10px 23px;
+  color: white;
+  font-style: normal;
+  margin-top: 32px;
+  font-weight: 400;
+  top: 20;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 :disabled {
-    background-color: #a0b9f7;
+  background-color: #a0b9f7;
+  margin-top: 32px;
+  cursor: not-allowed;
+}
+
+.text-des-error {
+  font-size: 12px;
+  color: #e21313;
+}
+
+.remove {
+  font-size: 14px;
+  color: #a7a2a2;
+}
+
+.remove:hover {
+  font-size: 14px;
+  color: #e21313;
+}
+
+.retangle {
+  background-color: white;
+  border-radius: 24px;
+  padding: 42px;
+  margin-top: 64px;
+}
+
+.primary{
+color:#618cfb;
+margin-top: 4px;
 }
