@@ -12,4 +12,4 @@ Na poczatku sprawdza czy formularz zawiera 3 liczby, jeśli tak to, liczby są p
 ## Technologię 
 Nuxt3 Typescript
 
-## <a href = "https://zadanie-rekrutacja.vercel.app/" target="_blank">Zobacz demo</a>
+## <a href = "https://zadanie-rekrutacja.vercel.app/](https://number-array.vercel.app)https://number-array.vercel.app" target="_blank">Zobacz demo</a>
